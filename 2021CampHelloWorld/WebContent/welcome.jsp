@@ -8,15 +8,10 @@
 </head>
 <body>
 
-<h1>Hello World!!</h1>
-<h1>test Git staging</h1>
-<% out.print("welcome to jsp"); %>
-
-<form action="welcome.jsp">  
-<input type="text" name="uname">  
-<input type="submit" value="go"><br/>  
-</form>
-
+<%  
+String name=request.getParameter("uname");  
+out.print("welcome "+name);  
+%>  
 
 </body>
 </html>
