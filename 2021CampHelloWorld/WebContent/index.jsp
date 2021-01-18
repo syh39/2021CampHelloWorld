@@ -10,12 +10,21 @@
 
 <h1>Hello World!!</h1>
 <h1>test Git staging</h1>
-<% out.print("welcome to jsp"); %>
+<% out.print("welcome to jsp" + "<br>"); %>
+
+<% this.log("message"); %>
+<%= "Check the Browser log!" %>
 
 <form action="welcome.jsp">  
-<input type="text" name="uname">  
+<input type="text" name="uname" required>  
 <input type="submit" value="go"><br/>  
 </form>
+
+<form action="welcome2.jsp">  
+<p>Using Response Object</p>
+<input type="submit" value="go to Naver"><br/>  
+</form>
+
 
 
 </body>
