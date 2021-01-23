@@ -1,8 +1,8 @@
-package com.javatpoint.dao;
+package com.lab14.dao;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-import com.javatpoint.bean.User;
+import com.lab14.bean.User;
 
 public class UserDao {
 
